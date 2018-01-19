@@ -4,14 +4,19 @@
 
 To add to akkeris run: 
 
-`aka plugins:publish certs -d "Order, install and renew https (tls) certificates" -r https://github.com/akkeris/cli-certs-plugin -e "youremail@exmaple.com" -o "Your name"`
+```
+aka plugins:publish certs -d "Order, install and renew https (tls) certificates" -r https://github.com/akkeris/cli-certs-plugin -e "youremail@exmaple.com" -o "Your name"
+```
 
+Ensure for each region this feature is enabled on that the region-api has it enabled as well.
 
 ## Installing
 
 Then to install and begin using it (or for others to begin using it) run:
 
-`aka plugins:install certs`
+```
+aka plugins:install certs
+```
 
 
 ## Usage
