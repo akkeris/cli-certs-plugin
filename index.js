@@ -92,7 +92,7 @@ function create_order(appkit, args) {
       console.log("Region:\t" + args.region);
     }
     console.log("Type:\t\t" +  return_type(payload));
-    console.log("Duration:\t3-year")
+    console.log("Duration:\t2-year")
     console.log("Org:\t\t" + args.organization)
     console.log()
     appkit.terminal.confirm("Create TLS certificate? (N/y)", (response) => {
