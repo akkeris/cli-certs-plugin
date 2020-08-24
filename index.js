@@ -143,7 +143,7 @@ module.exports = {
       'comments':{
         'alias':'m',
         'type':'string',
-        'description':'Place comments on the certificate order to let approvers know why your\'e requesting it.',
+        'description':'Place comments on the certificate order to let approvers know why you\'re requesting it.',
         'default':''
       },
       'confirm':{
@@ -156,7 +156,7 @@ module.exports = {
         'alias':'o',
         'type':'string',
         'demandOption': true,
-        'description':'The name or uuid of the organization who is requesting this certificate.'
+        'description':'The name or UUID of the organization who is requesting this certificate.'
       },
       'region':{
         'region':'r',
